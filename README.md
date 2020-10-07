@@ -1,4 +1,9 @@
-# PyTorch-Style-Transfer
+# PyTorch-Style-Transfer for MSA
+
+사용한 명령어 
+`docker run --rm -it -e DISPLAY -p 4000:4000 -v `pwd`:/app -v /tmp/.X11-unix/:/tmp/.X11-unix/ ms_practice demo --cuda 0 --model models/21styles.model`
+
+
 
 This repo provides PyTorch Implementation of **[MSG-Net (ours)](#msg-net)** and **[Neural Style (Gatys et al. CVPR 2016)](#neural-style)**, which has been included by [ModelDepot](https://modeldepot.io/zhanghang/multi-style-generative-network-for-real-time-transfer/overview). We also provide [Torch implementation](https://github.com/zhanghang1989/MSG-Net/) and [MXNet implementation](https://github.com/zhanghang1989/MXNet-Gluon-Style-Transfer).
 
